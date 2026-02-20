@@ -10,7 +10,7 @@
 # --- Snippet 1 ---
 # This should display a greeting
 message = "Hello, welcome to Python!"
-print(message)
+print(f'{message}')
 
 # --- Snippet 2 ---
 # This should display a student's name
@@ -34,7 +34,7 @@ print(f"I have {number_of_pets} pets")
 
 # --- Snippet 6 ---
 # This should display a book title
-book_title = "The Great Gatsby'"
+book_title = "The Great Gatsby"
 print(f"I am reading {book_title}")
 
 # --- Snippet 7 ---

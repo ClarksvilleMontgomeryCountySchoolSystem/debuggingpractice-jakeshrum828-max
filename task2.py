@@ -43,37 +43,37 @@ print("""
 
 # --- Candy Bars ---
 # Price: $1.89 each (float price, int quantity)
-candy_price = 1.89
+candy_price = float(1.89)
 candy_quantity = int(candy_quantity_str)
-candy_total = candy_price * candy_quantity
+candy_total = (candy_price * candy_quantity)
 print(f"Candy Bars: {candy_quantity} x ${candy_price} = ${candy_total}")
 
 # --- Soda Bottles ---
 # Price: $2.49 each (float price, int quantity)
-soda_price = 2.49
+soda_price = float(2.49)
 soda_quantity = int(soda_quantity_str)
-soda_total = soda_price * soda_quantity
+soda_total = (soda_price * soda_quantity)
 print(f"Soda: {soda_quantity} x ${soda_price} = ${soda_total}")
 
 # --- Gas ---
 # Price: $3.25 per gallon (float price, float quantity)
-gas_price = 3.25
+gas_price = float(3.25)
 gallons = float(gallons_str)
-gas_total = gas_price * gallons
+gas_total = (gas_price * gallons)
 print(f"Gas: {gallons} gallons x ${gas_price} = ${gas_total}")
 
 # --- Deli Meat ---
 # Price: $8.99 per pound (float price, float quantity)
-deli_price = 8.99
+deli_price = float(8.99)
 pounds = float(pounds_str)
-deli_total = deli_price * pounds
+deli_total = (deli_price * pounds)
 print(f"Deli Meat: {pounds} lbs x ${deli_price} = ${deli_total}")
 
 # --- Lottery Tickets ---
 # Price: $2 each (int price, int quantity)
-lottery_price = 2
+lottery_price = int(2)
 lottery_quantity = int(lottery_quantity_str)
-lottery_total = lottery_price * lottery_quantity
+lottery_total = (lottery_price * lottery_quantity)
 print(f"Lottery: {lottery_quantity} x ${lottery_price} = ${lottery_total}")
 
 # --- Receipt Total ---
